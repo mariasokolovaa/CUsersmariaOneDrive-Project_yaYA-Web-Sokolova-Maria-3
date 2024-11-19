@@ -1,0 +1,13 @@
+.yandex-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+@media screen and (max-width: 767px) {
+    .yandex-links{
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 248px;
+    }
+}

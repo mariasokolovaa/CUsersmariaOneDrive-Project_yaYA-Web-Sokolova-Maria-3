@@ -1,0 +1,27 @@
+.yandex-links__point {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    margin-right: 18px;
+}
+
+.yandex-links__point:last-child {
+    margin: 0;
+}
+
+.yandex-links__point:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .yandex-links__point{
+        margin: 0;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
